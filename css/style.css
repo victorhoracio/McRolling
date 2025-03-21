@@ -11,3 +11,8 @@ main{
   flex-grow: 1;
 }
 
+@media (max-width: 767px) {
+  img {
+    display: none;
+  }
+}
