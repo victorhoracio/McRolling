@@ -11,7 +11,56 @@
     <title>McRolling</title>
 </head>
 <body>
-    <header></header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+      <div class=" row container-fluid">
+        <a class="navbar-brand text-danger-emphasis fs-4 fw-bold titulo col-xs-12 col-md-3 col-lg-3" href="index.html">
+          <img src="./img/navbarLogo.png" alt="Logo" width="70" height="70" class=" align-text-center">
+          McRolling</a>
+          <form class="d-flex col-xs-12 col-md-3 col-lg-6 p-2 " role="search">
+            <input class="form-control me-2" type="search" placeholder="Ej. Americana" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+         
+      </div>
+   
+      <div class="container-fluid ">        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#miMenu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="miMenu">
+          <ul class="navbar-nav nav justify-content-end nav-underline me-auto  ">
+            <li class="nav-item">
+              <a class="nav-link  active text-danger-emphasis  fw-bold " aria-current="page" href="./pages/acercaDeNosotros.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger-emphasis fw-bold " href="./pages/contactos.html">Contacto</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link text-danger-emphasis fw-bold" aria-current="page" href="./pages/login.html">ingresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger-emphasis fw-bold" href="./pages/registro.html">Crea una cuenta</a>
+            </li>                       
+             </ul>
+             <form class="d-flex me-auto mb-2 mb-lg-0 ">
+              <button class="btn btn-outline-danger me-2 " type="button"><i class="bi bi-cart4"></i></button>                
+            </form>
+
+    
+            
+        </div>
+      </div>
+    </nav>
+  </header>
     <main></main>
     <footer class="bg-danger py-3 text-light">
         <div class="container">
