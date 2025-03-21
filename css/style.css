@@ -23,11 +23,11 @@ main{
  
 }
 
-/*
-header{
-  background: url(../img/bgNavbar.jpg);
+
+.header{
+  background:blue;
  object-fit: cover;
  background-position: center 0;
  background-repeat: no-repeat;
 
-}*/
+}
