@@ -18,6 +18,14 @@ main{
   flex-grow: 1;
 }
 
+.logofooter{
+  width: 26%;
+}
+
+.logofooter:hover{
+  width: 30%;
+}
+
 .titulo {
   font-family: "BlackHanSans", sans-serif;
  
@@ -29,5 +37,4 @@ main{
  object-fit: cover;
  background-position: center 0;
  background-repeat: no-repeat;
-
 }
