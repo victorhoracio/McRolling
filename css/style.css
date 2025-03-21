@@ -15,26 +15,20 @@ main{
   background-image: linear-gradient( 181.3deg,  rgba(134,15,15,1) 24.9%, rgba(183,10,10,1) 46.9%, rgba(210,70,0,1) 85.1% );
 }
 
+.contenedor-sticky{
+  position: relative;
+}
+
 .contenedor-publicidad{
   height: 500px;
   width: 200px;
+  position: sticky;
+  top: 20px;
 }
 
 .contenedor-publicidad-2{
   height: 150px;
   width: 600px;
-}
-
-.img-publicidad{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.img-publicidad-2{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .contenedor-titulo-categoria{
@@ -48,7 +42,7 @@ main{
   bottom: 40%;
 }
 
-.img-titulo-categoria{
+img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -91,7 +85,7 @@ transform: scale(0.9);
 
 @media (min-width: 768px) and (max-width:991px){
   .contenedor-publicidad{
-    height: 500px;
+    height: 350px;
     width: 110px;
   }
 }
