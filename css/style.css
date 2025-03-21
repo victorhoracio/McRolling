@@ -11,4 +11,10 @@ main{
   flex-grow: 1;
 }
 
+.logofooter{
+  width: 26%;
+}
 
+.logofooter:hover{
+  width: 27%;
+}
