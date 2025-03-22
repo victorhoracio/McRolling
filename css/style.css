@@ -34,9 +34,21 @@ main {
   top: 20px;
 }
 
+.img-publicidad{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .contenedor-publicidad-2 {
   height: 150px;
   width: 600px;
+}
+
+.img-publicidad-2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contenedor-titulo-categoria {
@@ -54,7 +66,7 @@ main {
   background: rgba(27, 22, 22, 0.616);
 }
 
-img {
+.img-titulo-categoria{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -85,6 +97,8 @@ img {
   filter: grayscale(60%);
   transition-duration: 600ms;
   transition-timing-function: ease-in-out;
+  height: 300px;
+  object-fit: cover;
 }
 
 .card-img-top:hover {
