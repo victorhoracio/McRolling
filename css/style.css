@@ -43,12 +43,16 @@ main {
 .contenedor-titulo-categoria {
   position: relative;
   height: 200px;
+  padding: 0;
 }
 
 .titulo-categoria {
   position: absolute;
   left: 35%;
   bottom: 40%;
+  border: solid 1px rgb(172, 66, 24);
+  border-radius: 10px;
+  background: rgba(27, 22, 22, 0.616);
 }
 
 img {
@@ -129,34 +133,34 @@ img {
 
 @media (max-width: 374px) {
   .titulo-categoria {
-    left: 10%;
+    left: 2%;
     bottom: 35%;
   }
 
   .contenedor-titulo-categoria {
-    height: 120px;
+    height: 140px;
   }
 }
 
 @media (min-width: 375px) and (max-width: 424px) {
   .titulo-categoria {
-    left: 15%;
+    left: 9%;
     bottom: 35%;
   }
 
   .contenedor-titulo-categoria {
-    height: 140px;
+    height: 150px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 539px) {
   .titulo-categoria {
-    left: 20%;
+    left: 14%;
     bottom: 35%;
   }
 
   .contenedor-titulo-categoria {
-    height: 140px;
+    height: 160px;
   }
 }
 
@@ -173,11 +177,11 @@ img {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .titulo-categoria {
-    left: 28%;
+    left: 25%;
     bottom: 35%;
   }
 
   .contenedor-titulo-categoria {
-    height: 140px;
+    height: 170px;
   }
 }
