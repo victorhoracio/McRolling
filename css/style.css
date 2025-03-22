@@ -34,7 +34,7 @@ main {
   top: 20px;
 }
 
-.img-publicidad{
+.img-publicidad {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -45,7 +45,7 @@ main {
   width: 600px;
 }
 
-.img-publicidad-2{
+.img-publicidad-2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -66,7 +66,7 @@ main {
   background: rgba(27, 22, 22, 0.616);
 }
 
-.img-titulo-categoria{
+.img-titulo-categoria {
   width: 100%;
   height: 100%;
   object-fit: cover;
