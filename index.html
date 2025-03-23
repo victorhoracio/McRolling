@@ -1,102 +1,410 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Descripcion" content=" pagina oficial de venta de Hamburguesas McRolling" />
-    <meta name="keywords" content="hamburguesas McRolling"/>
-    <meta name="Autor" content="Victor H. Llanos, Rita Natalia Borquez, Claudia Ximena Barrientos, Exequiel Ignacio Rojas" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Descripcion"
+      content=" pagina oficial de venta de Hamburguesas McRolling"
+    />
+    <meta name="keywords" content="hamburguesas McRolling" />
+    <meta
+      name="Autor"
+      content="Victor H. Llanos, Rita Natalia Borquez, Claudia Ximena Barrientos, Exequiel Ignacio Rojas"
+    />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>McRolling</title>
-</head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
-      <div class=" row container-fluid">
-        <a class="navbar-brand text-danger-emphasis fs-4 fw-bold titulo col-xs-12 col-md-3 col-lg-3" href="index.html">
-          <img src="./img/navbarLogo.png" alt="Logo" width="70" height="70" class=" align-text-center">
-          McRolling</a>
-          <form class="d-flex col-xs-12 col-md-3 col-lg-6 p-2 " role="search">
-            <input class="form-control me-2" type="search" placeholder="Ej. Americana" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-          </form>
-         
-      </div>
-   
-      <div class="container-fluid ">        
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#miMenu"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="miMenu">
-          <ul class="navbar-nav nav justify-content-end nav-underline me-auto  ">
-            <li class="nav-item">
-              <a class="nav-link  active text-danger-emphasis  fw-bold " aria-current="page" href="./pages/acercaDeNosotros.html">Quienes Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-danger-emphasis fw-bold " href="./pages/contactos.html">Contacto</a>
-            </li>   
-            <li class="nav-item">
-              <a class="nav-link text-danger-emphasis fw-bold" aria-current="page" href="./pages/login.html">ingresa</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-danger-emphasis fw-bold" href="./pages/registro.html">Crea una cuenta</a>
-            </li>                       
-             </ul>
-             <form class="d-flex me-auto mb-2 mb-lg-0 ">
-              <button class="btn btn-outline-danger me-2 " type="button"><i class="bi bi-cart4"></i></button>                
-            </form>
+  </head>
+  <body>
+    <main class="bg-main-fuente py-3">
+      <section class="container-fluid">
+        <div class="row justify-content-center gap-4 contenedor-sticky">
+          <a
+            class="col-2 contenedor-publicidad bg-warning p-0 border border-warning shadow"
+            href="./pages/error404.html"
+          >
+            <img
+              src="./img/Banner publicidad 2.png"
+              alt="Imagen publicitario"
+              class="img-publicidad"
+            />
+          </a>
 
-    
-            
-        </div>
-      </div>
-    </nav>
-  </header>
-    <main></main>
-    <footer class="bg-danger py-3 text-light">
-        <div class="container">
-            <div class="row">
-                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                    <h5 class="fs-4">Mc Rolling</h5>
-                    <a href="./index.html">
-                        <img src="./img/descarga.png" alt="Logo de McRolling" class="logofooter">
-                    </a>
-                </article>
-                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                    <h5>Productos</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Hamburguesas</a></li>
-                        <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Ensaladas</a></li>
-                        <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Agregados</a></li>
-                    </ul>
-                </article>
-                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                    <h5>Contactanos</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="./pages/contactos.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Contactos</a></li>
-                        <li><a href="./pages/acercaDeNosotros.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Quienes Somos</a></li>
-                        <li><a href="./pages/registro.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Registrarse</a></li>
-                        <li><a href="./pages/login.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Login</a></li>
-                    </ul>
-                </article>
-                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                    <h5>Nuestras Redes</h5>
-                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-facebook"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-instagram"></i></a>
-                    <a href="https://x.com/?lang=es" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-twitter-x"></i></a>
-                </article>
+          <div class="col-12 col-md-10 col-lg-10 row justify-content-center">
+            <div class="contenedor-titulo-categoria">
+              <img
+                src="./img/img categoria titulo 1.png"
+                alt="Categoria hamburguesas de carne"
+                class="img-titulo-categoria shadow"
+              />
+              <h4 class="text-light titulo-categoria text-center p-1">
+                Hamburguesas de carne
+              </h4>
             </div>
+
+            <div class="row col-12 py-3 justify-content-center">
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/detalleProducto.html"
+                >
+                  <img
+                    src="./img/Hamburguesa grilla.png"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Hamburguesa Classic Beacon</h5>
+                    <p class="card-text lead">
+                      Una clasica de la casa, aqui te presentamos el plato
+                      origen de nuestra casa.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/error404.html"
+                >
+                  <img
+                    src="./img/Hamburguesa grilla2.png"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Hamburguesa Sky</h5>
+                    <p class="card-text lead">
+                      La hamburguesa con la mayor variedad de ingredientes que
+                      lograran elevarte al cielo.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/error404.html"
+                >
+                  <img
+                    src="./img/Hamburguesa grilla3.png"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Hamburguesa BigRolling</h5>
+                    <p class="card-text lead">
+                      Debido a su gran tamaño es el favorito de los que son
+                      capaces de abrir mucho su mandibula.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <div class="d-flex justify-content-center py-3">
+                <nav aria-label="Navegacion de pagina categoria hamburguesas">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        aria-label="Previous"
+                      >
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a
+                        class="page-link bg-dark text-primary"
+                        href="./pages/error404.html"
+                        >1</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        >2</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        >3</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        aria-label="Next"
+                      >
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="contenedor-titulo-categoria">
+              <img
+                src="./img/img categoria titulo 2.png"
+                alt="Categoria hamburguesas de carne"
+                class="img-titulo-categoria"
+              />
+              <h4 class="text-light titulo-categoria text-center">
+                Variedades de ensaladas
+              </h4>
+            </div>
+
+            <div class="row col-12 py-3 justify-content-center">
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/error404.html"
+                >
+                  <img
+                    src="./img/Ensalada grilla 1.jpg"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Ensalada TinyOnions McRolling</h5>
+                    <p class="card-text lead">
+                      Para los que desean un plato ligero y sabroso tal como lo
+                      son la cebolla y el tomate.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/error404.html"
+                >
+                  <img
+                    src="./img/Ensalada grilla 2.jpg"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Ensalada Recharge McRolling</h5>
+                    <p class="card-text lead">
+                      Una ensalada fuerte en proteinas que tiene como
+                      protagonista unos exquisitos garbanzos.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/detalleProducto2.html"
+                >
+                  <img
+                    src="./img/Ensalada grilla 3.jpg"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Ensalada TastyLegumes McRolling</h5>
+                    <p class="card-text lead">
+                      Un rico tazon de ensalada de lentejas con muy sabrosos
+                      acompañantes.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <div class="d-flex justify-content-center py-3">
+                <nav aria-label="Navegacion de pagina categoria hamburguesas">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        aria-label="Previous"
+                      >
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a
+                        class="page-link bg-dark text-primary"
+                        href="./pages/error404.html"
+                        >1</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        >2</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        >3</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        aria-label="Next"
+                      >
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="contenedor-titulo-categoria">
+              <img
+                src="./img/img categoria titulo 3.png"
+                alt="Categoria hamburguesas de carne"
+                class="img-titulo-categoria"
+              />
+              <h4 class="text-light titulo-categoria text-center">
+                Aprovecha estos combos
+              </h4>
+            </div>
+
+            <div class="row col-12 py-3 justify-content-center">
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/error404.html"
+                >
+                  <img
+                    src="./img/Combo grilla 1.jpg"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Combo Hamburguesa y Nuggets</h5>
+                    <p class="card-text lead">
+                      Este combo es va con cualquier hamburguesa en nuestra
+                      carta y ademas te llevas los nuggets con un 50% off.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/error404.html"
+                >
+                  <img
+                    src="./img/Combo grilla 2.jpeg"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">Combo Romantico</h5>
+                    <p class="card-text lead">
+                      Combo especial para enamorados donde pueden llevarse 2
+                      hamburguesas mas una gaseosa al 50% off.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <article class="col-12 col-md-6 col-lg-4 my-2">
+                <a
+                  class="card p-1 h-100 border-warning link-underline link-underline-opacity-0 card-articulo shadow"
+                  href="./pages/error404.html"
+                >
+                  <img
+                    src="./img/Combo grilla 3.jpeg"
+                    class="card-img-top"
+                    alt="Hamburguesa beacon"
+                  />
+                  <div class="card-body">
+                    <h5 class="titulo-card">
+                      Combo Hamburguesa y Helado Sundae
+                    </h5>
+                    <p class="card-text lead">
+                      Siempre luego del plato principal viene el postre, llevate
+                      un sundae 50% off con este combo.
+                    </p>
+                  </div>
+                </a>
+              </article>
+
+              <div class="d-flex justify-content-center py-3">
+                <nav aria-label="Navegacion de pagina categoria hamburguesas">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        aria-label="Previous"
+                      >
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a
+                        class="page-link bg-dark text-primary"
+                        href="./pages/error404.html"
+                        >1</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        >2</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        >3</a
+                      >
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link text-bg-dark"
+                        href="./pages/error404.html"
+                        aria-label="Next"
+                      >
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <a
+              class="col-12 contenedor-publicidad-2 bg-light border border-warning shadow"
+              href="https://web.rollingcodeschool.com/"
+            >
+              <img
+                src="./img/Banner publicidad.png"
+                alt="Imagen publicitario"
+                class="img-publicidad-2"
+              />
+            </a>
+          </div>
         </div>
-    </footer>
+      </section>
+    </main>
+
     <script src="./js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
