@@ -38,8 +38,8 @@ main{
   background-repeat: no-repeat;
 }
 
-@media (max-width: 767px) {
-  img {
+@media (max-width: 991px) {
+  .img-d-none{
     display: none;
   }
 }
