@@ -12,13 +12,13 @@
 </head>
 <body>
     <header></header>
-    <main>
-        <div>
-            <h1>Ingresa tus datos para registrarte</h1>
-            <form>
+    <main class="">
+        <div class="d-flex container align-items-center justify-content-center">
+            <h1 class="text-center mb-4">Ingresa tus datos para registrarte</h1>
+            <form class="d-flex flex-column gap-3">
                 <div>
                     <label>Nombre de usuario</label>
-                    <input type="text name="username" maxlength="100" />
+                    <input type="text" name="username" maxlength="100" />
                 </div>
                 <div>
                     <label>Nombre y apellido</label>
@@ -49,19 +49,19 @@
                     <input type="date" name="fechaNacimiento" />
                 </div>
                 <div>
-                    <checkbox>
-                        <label>Acepto los términos y condiciones</label>
+                    <label>
                         <input type="checkbox" name="terminos" />
-                    </checkbox>
+                        Acepto los términos y condiciones
+                    </label>
                 </div>
                 <div>
-                    <checkbox>
-                        <label>¿Quieres recibir correos con nuestras actualizaciones?</label>
-                        <input type="checkbox" name="terminos" />
-                    </checkbox>
+                    <label>
+                        <input type="checkbox" name="actualizaciones" />
+                        ¿Quieres recibir correos con nuestras actualizaciones?
+                    </label>
                 </div>
                 <div>
-                    <button type="submit">Registrarme</button>
+                    <button class="btn btn-success" type="submit">Registrarme</button>
                 </div>
                 <div>
                     <a href="login.html">Ya tengo una cuenta</a>
