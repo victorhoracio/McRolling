@@ -108,7 +108,8 @@ main {
 }
 
 .contenedor-descripcion{
-  color: black;
+background-color: #ed7512;
+color: black;
 }
 
 .contenedor-img-descripcion-producto{
@@ -147,6 +148,10 @@ main {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.color-texto{
+  color: black;
 }
 
 /* Media de publicidades */
