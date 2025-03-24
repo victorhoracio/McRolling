@@ -118,6 +118,10 @@ main {
   width: 26%;
 }
 
+.logofooter:hover{
+  width: 30%;
+}
+
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
