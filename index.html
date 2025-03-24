@@ -11,9 +11,92 @@
     <title>McRolling</title>
 </head>
 <body>
-    <header></header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+      <div class=" row container-fluid">
+        <a class="navbar-brand text-danger-emphasis fs-4 fw-bold titulo col-xs-12 col-md-3 col-lg-3" href="index.html">
+          <img src="./img/navbarLogo.png" alt="Logo" width="70" height="70" class=" align-text-center">
+          McRolling</a>
+          <form class="d-flex col-xs-12 col-md-3 col-lg-6 p-2 " role="search">
+            <input class="form-control me-2" type="search" placeholder="Ej. Americana" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+         
+      </div>
+   
+      <div class="container-fluid ">        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#miMenu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="miMenu">
+          <ul class="navbar-nav nav justify-content-end nav-underline me-auto  ">
+            <li class="nav-item">
+              <a class="nav-link  active text-danger-emphasis  fw-bold " aria-current="page" href="./pages/acercaDeNosotros.html">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger-emphasis fw-bold " href="./pages/contactos.html">Contacto</a>
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link text-danger-emphasis fw-bold" aria-current="page" href="./pages/login.html">ingresa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-danger-emphasis fw-bold" href="./pages/registro.html">Crea una cuenta</a>
+            </li>                       
+             </ul>
+             <form class="d-flex me-auto mb-2 mb-lg-0 ">
+              <button class="btn btn-outline-danger me-2 " type="button"><i class="bi bi-cart4"></i></button>                
+            </form>
+
+    
+            
+        </div>
+      </div>
+    </nav>
+  </header>
     <main></main>
-    <footer></footer>
+    <footer class="bg-danger py-3 text-light">
+        <div class="container">
+            <div class="row">
+                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                    <h5 class="fs-4">Mc Rolling</h5>
+                    <a href="./index.html">
+                        <img src="./img/descarga.png" alt="Logo de McRolling" class="logofooter">
+                    </a>
+                </article>
+                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                    <h5>Productos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Hamburguesas</a></li>
+                        <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Ensaladas</a></li>
+                        <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Agregados</a></li>
+                    </ul>
+                </article>
+                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                    <h5>Contactanos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="./pages/contactos.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Contactos</a></li>
+                        <li><a href="./pages/acercaDeNosotros.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Quienes Somos</a></li>
+                        <li><a href="./pages/registro.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Registrarse</a></li>
+                        <li><a href="./pages/login.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Login</a></li>
+                    </ul>
+                </article>
+                <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                    <h5>Nuestras Redes</h5>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-instagram"></i></a>
+                    <a href="https://x.com/?lang=es" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-twitter-x"></i></a>
+                </article>
+            </div>
+        </div>
+    </footer>
     <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
