@@ -107,6 +107,10 @@ main {
   transition-timing-function: ease-in-out;
 }
 
+.contenedor-descripcion{
+  color: black;
+}
+
 .contenedor-img-descripcion-producto{
   height: 150px;
   width: 150px;
@@ -126,6 +130,23 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.boton-ingredientes{
+  height: 50px;
+  width: 50px;
+}
+
+.contenedor-ingrediente{
+  height: 80px;
+  width: 80px;
+  background-color: green;
+}
+
+.img-boton{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Media de publicidades */
@@ -218,4 +239,16 @@ main {
   .contenedor-titulo-categoria {
     height: 170px;
   }
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+  .contenedor-img-detalle-producto{
+  height: 250px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+  .contenedor-img-descripcion-producto{
+  height: 100px;
+}
 }
