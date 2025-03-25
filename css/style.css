@@ -114,57 +114,58 @@ main {
   transition-timing-function: ease-in-out;
 }
 
-.contenedor-descripcion{
-background-color: #ed7512;
-color: black;
+.contenedor-descripcion {
+  background-color: #ed7512;
+  color: black;
 }
 
-.contenedor-img-descripcion-producto{
+.contenedor-img-descripcion-producto {
   height: 150px;
   width: 150px;
 }
 
-.img-descripcion-producto{
+.img-descripcion-producto {
   height: 100%;
   width: 100;
   object-fit: cover;
 }
 
-.contenedor-img-detalle-producto{
+.contenedor-img-detalle-producto {
   height: 450px;
 }
 
-.img-detalle-producto{
+.img-detalle-producto {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.boton-ingredientes{
+.boton-ingredientes {
   height: 50px;
   width: 50px;
 }
 
-.contenedor-ingrediente{
+.contenedor-ingrediente {
   height: 80px;
   width: 80px;
   background-color: green;
 }
 
-.img-badge{
+.img-badge {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.color-texto{
+.color-texto {
   color: black;
+}
 
-.logofooter{
+.logofooter {
   width: 26%;
 }
 
-.logofooter:hover{
+.logofooter:hover {
   width: 30%;
 }
 
@@ -260,14 +261,14 @@ color: black;
   }
 }
 
-@media (min-width: 320px) and (max-width: 425px){
-  .contenedor-img-detalle-producto{
-  height: 250px;
-}
+@media (min-width: 320px) and (max-width: 425px) {
+  .contenedor-img-detalle-producto {
+    height: 250px;
+  }
 }
 
-@media (min-width: 320px) and (max-width: 425px){
-  .contenedor-img-descripcion-producto{
-  height: 100px;
-}
+@media (min-width: 320px) and (max-width: 425px) {
+  .contenedor-img-descripcion-producto {
+    height: 100px;
+  }
 }
