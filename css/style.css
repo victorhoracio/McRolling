@@ -159,6 +159,7 @@ color: black;
 
 .color-texto{
   color: black;
+}
 
 .logofooter{
   width: 26%;
@@ -267,7 +268,8 @@ color: black;
 }
 
 @media (min-width: 320px) and (max-width: 425px){
+
   .contenedor-img-descripcion-producto{
   height: 100px;
 }
-}
+} 
