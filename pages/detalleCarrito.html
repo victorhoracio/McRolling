@@ -12,55 +12,57 @@
 </head>
 <body>
     <header></header>
-    <main class="container text-center py-3">
+    <main class="container-fluid text-center py-3 bg-main-fuente">
         <h1>Carrito de compra</h1>
-        <h2>Vamos a finalizar los detalles de tu compra</h2>
-        <div class="row border-bottom border-2 border-danger">
-            <div class="col-12 col-md-6 p-3">
-                <img src="../img/imagen mc rolling larga.jpeg" alt="McRolling con hamburguesa delante" class="img-carrito">
-            </div>
-            <div class="col-12 col-md-6 p-3 d-flex flex-column justify-content-center">
-                <table class="">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Producto</th>
-                        <th scope="col">Cantidad</th>
-                        <th scope="col">Precio</th>
-                        <th scope="col"><i class="bi bi-trash-fill"></i></th>
-                      </tr>
-                    </thead>
-                    <tbody class="table-group-divider">
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td><a href="#"><i class="bi bi-trash-fill"></i></a></i></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                        <td><a href="#"><i class="bi bi-trash-fill"></i></a></i></td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Larry the Bird</td>
-                        <td>@twitter</td>
-                        <td></td>
-                        <td><a href="#"><i class="bi bi-trash-fill"></i></a></i></td>
-                      </tr>
-                    </tbody>
-                </table>
-                <div>
-                    <h5 class="mt-5 fs-3 text-success">Total</h5>
-                    <p class="fs-3 text-success">$1000</p>
+        <div class="container">
+            <div class="row rounded border border-3 border-warning contenedor-descripcion">
+                <div class="col-12 col-md-6 p-3">
+                    <img src="../img/imagen mc rolling larga.jpeg" alt="McRolling con hamburguesa delante" class="img-carrito">
                 </div>
-                <div class="py-3">
-                    <a href="./detalleProducto.html" class="btn btn-warning me-3">Seguir comprando</a>
-                    <a href="./error404.html" class="btn btn-warning me-3">Finalizar compra</a>
+                <div class="col-12 col-md-6 p-3 d-flex flex-column justify-content-center">
+                    <h2>Vamos a finalizar los detalles de tu compra</h2>
+                    <table class="mt-3">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col"><i class="bi bi-trash-fill"></i></th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Hamburguesa Classic Beacon</td>
+                            <td>1</td>
+                            <td>$8000</td>
+                            <td><a href="#" class="link-warning"><i class="bi bi-trash-fill"></i></a></i></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Ensalada TastyLegumes McRolling</td>
+                            <td>1</td>
+                            <td>$5500</td>
+                            <td><a href="#" class="link-warning"><i class="bi bi-trash-fill"></i></a></i></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Hamburguesa Sky</td>
+                            <td>1</td>
+                            <td>$9000</td>
+                            <td><a href="#" class="link-warning"><i class="bi bi-trash-fill"></i></a></i></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <h5 class="mt-5 fs-3 text-success">Total</h5>
+                        <p class="fs-3 text-success">$1000</p>
+                    </div>
+                    <div class="py-3">
+                        <a href="./detalleProducto.html" class="btn btn-warning me-3 mb-2">Seguir comprando</a>
+                        <a href="./error404.html" class="btn btn-warning me-3 mb-2">Finalizar compra</a>
+                    </div>
                 </div>
             </div>
         </div>
