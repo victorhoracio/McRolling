@@ -18,6 +18,9 @@ main {
   flex-grow: 1;
 }
 
+.navbar{
+  background: #8d1818;
+}
 .bg-main-fuente {
   background-image: linear-gradient(
     181.3deg,
@@ -86,7 +89,7 @@ main {
 }
 
 .card-articulo {
-  background-color: rgb(141, 24, 24);
+  background-color: #8d1818;
   color: rgb(221, 180, 92);
   transition-duration: 600ms;
   transition-timing-function: ease-in-out;

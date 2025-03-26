@@ -17,12 +17,103 @@
     <title>McRolling</title>
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div
+          class="container d-flex flex-row flex-wrap justify-content-between"
+        >
+          <a
+            class="navbar-brand text-danger-emphasis fs-2 fw-bold titulo align-self-start"
+            href="index.html"
+          >
+            <img
+              src="./img/navbarLogo.png"
+              alt="Logo"
+              width="90"
+              height="90"
+              class="align-text-center"
+            />
+            <strong>McRolling</strong></a
+          >
+          <form
+            class="d-flex justify-content-center flex-fill p-4"
+            role="search"
+          >
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Ej. Hamburguesas riquísimas"
+              aria-label="Search"
+            />
+            <button class="btn btn btn-light" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+
+          <button
+            class="navbar-toggler py-2 ms-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#miMenu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end align-items-end py-1"
+            id="miMenu"
+          >
+            <ul class="navbar-nav nav-underline">
+              <hr class="link-opacity-50" />
+              <li class="nav-item">
+                <a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  aria-current="page"
+                  href="./pages/acercaDeNosotros.html"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  href="./pages/contactos.html"
+                  >Contacto</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  aria-current="page"
+                  href="./pages/login.html"
+                  >Ingresa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  href="./pages/registro.html"
+                  >Crea una cuenta</a
+                >
+              </li>
+            </ul>
+            <form class="mb-2 px-3">
+              <button class="btn btn-outline-danger me-2" type="button">
+                <i class="bi bi-cart4"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main class="bg-main-fuente py-3">
       <section class="container-fluid">
         <div class="row justify-content-center gap-4 contenedor-sticky">
           <a
             class="col-2 contenedor-publicidad bg-warning p-0 border border-warning shadow"
-            href="./pages/error404.html" target="_blank"
+            href="./pages/error404.html"
+            target="_blank"
           >
             <img
               src="./img/Banner publicidad 2.png"
@@ -392,7 +483,8 @@
             </div>
             <a
               class="col-12 contenedor-publicidad-2 bg-light border border-warning shadow"
-              href="https://web.rollingcodeschool.com/" target="_blank"
+              href="https://web.rollingcodeschool.com/"
+              target="_blank"
             >
               <img
                 src="./img/Banner publicidad.png"
@@ -406,39 +498,100 @@
     </main>
     <footer class="bg-danger py-3 text-light">
       <div class="container">
-          <div class="row">
-              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                  <h5 class="fs-4">Mc Rolling</h5>
-                  <a href="./index.html">
-                      <img src="./img/descarga.png" alt="Logo de McRolling" class="logofooter">
-                  </a>
-              </article>
-              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                  <h5>Productos</h5>
-                  <ul class="list-unstyled">
-                      <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Hamburguesas</a></li>
-                      <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Ensaladas</a></li>
-                      <li><a href="./index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Agregados</a></li>
-                  </ul>
-              </article>
-              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                  <h5>Contactanos</h5>
-                  <ul class="list-unstyled">
-                      <li><a href="./pages/contactos.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Contactos</a></li>
-                      <li><a href="./pages/acercaDeNosotros.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Quienes Somos</a></li>
-                      <li><a href="./pages/registro.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Registrarse</a></li>
-                      <li><a href="./pages/login.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Login</a></li>
-                  </ul>
-              </article>
-              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
-                  <h5>Nuestras Redes</h5>
-                  <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-instagram"></i></a>
-                  <a href="https://x.com/?lang=es" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-twitter-x"></i></a>
-              </article>
-          </div>
+        <div class="row">
+          <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+            <h5 class="fs-4">Mc Rolling</h5>
+            <a href="./index.html">
+              <img
+                src="./img/descarga.png"
+                alt="Logo de McRolling"
+                class="logofooter"
+              />
+            </a>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+            <h5>Productos</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./index.html"
+                  class="link-light link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Hamburguesas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html"
+                  class="link-light link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Ensaladas</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./index.html"
+                  class="link-light link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Agregados</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+            <h5>Contactanos</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="./pages/contactos.html"
+                  class="link-light link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Contactos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/acercaDeNosotros.html"
+                  class="link-light link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/registro.html"
+                  class="link-light link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Registrarse</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./pages/login.html"
+                  class="link-light link-underline-opacity-25 link-underline-opacity-100-hover"
+                  >Login</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+            <h5>Nuestras Redes</h5>
+            <a
+              href="https://www.facebook.com/?locale=es_LA"
+              target="_blank"
+              class="link-light fs-4 mx-2"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="link-light fs-4 mx-2"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a
+              href="https://x.com/?lang=es"
+              target="_blank"
+              class="link-light fs-4 mx-2"
+              ><i class="bi bi-twitter-x"></i
+            ></a>
+          </article>
+        </div>
       </div>
-  </footer>
+    </footer>
     <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
