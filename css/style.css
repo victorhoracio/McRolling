@@ -186,6 +186,10 @@ main {
   color: rgb(252, 115, 3);
 }
 
+.btn-inicio-como{
+  height: 25px;
+}
+
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -295,3 +299,7 @@ main {
     height: 100px;
   }
 }
+
+@media (max-width: 991px) {
+  .img-d-none{
+    display: none;

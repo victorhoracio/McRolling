@@ -5,13 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Descripcion" content=" pagina oficial de venta de Hamburguesas McRolling" />
     <meta name="keywords" content="hamburguesas McRolling"/>
-    <meta name="Autor" content="Victor H. Llanos, Rita Natalia Borquez, Claudia Ximena Barrientos, Exequiel Ignacio Rojas" />
+    <meta name="Author" content="Victor H. Llanos, Rita Natalia Borquez, Claudia Ximena Barrientos, Exequiel Ignacio Rojas" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>McRolling</title>
-    <title>Iniciar Sesion</title>
 </head>
 <body>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h2>Bienvenido!</h2>
+                    <h3>Ingresa tus datos</h3>
+                    <form class="form-login">
+                        <div class="form-group">
+                            <label for="username">Nombre de usuario o Email</label>
+                            <input class="form-control" type="text" name="username" id="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Contraseña</label>
+                            <input class="form-control" type="password" name="password" id="password" required>
+                        </div>
+                        <div class="d-flex align-items-center flex-wrap mb-3">
+                            <div class="d-inline-flex align-items-center mr-3">
+                                <input type="checkbox" name="remember" id="remember">
+                                <label for="remember" class="ml-2">Recordar mi usuario</label>
+                            </div>
+                            <div class="d-inline-flex">
+                                <a href="error404.html">¿No recuerdas tu contraseña? Para recuperarla haz clic aquí</a>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-warning w-100">Iniciar sesión</button>
+                        </div>
+                        <div class="text-center">
+                            <p><a href="/pages/registro.html">¿No tienes cuenta? Regístrate aquí</a></p>
+                            <p><a href="/index.html">Volver al inicio</a></p>
+                        </div>
+                        <div class="d-flex justify-content-between mt-3 ">
+                            <button type="button" class="btn btn-danger w-48 "><div><img class="object-fit-contain btn-inicio-como" src="https://logopng.com.br/logos/google-37.png" alt="Logo de Google"></div>Iniciar sesión con Google</button>
+                            <button type="button" class="btn btn-primary w-48"><div><img class="object-fit-contain btn-inicio-como" src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Logo de Facebook"></div>Iniciar sesión con Facebook</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <img class="img-fluid img-d-none" src="https://images.pexels.com/photos/3220617/pexels-photo-3220617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen de hamburguesa">
+                </div>
+            </div>
+        </div>
+    </main>
+
    <footer class="bg-danger py-3 text-light">
         <div class="container">
             <div class="row">
