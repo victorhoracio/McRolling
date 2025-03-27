@@ -169,10 +169,30 @@ main {
   width: 30%;
 }
 
+.img-carrito{
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.img-avatar{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.color-texto-card{
+  color: rgb(252, 115, 3);
+}
+
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
   .contenedor-publicidad {
+    display: none;
+  }
+  .img-carrito{
     display: none;
   }
 }
@@ -181,6 +201,9 @@ main {
   .contenedor-publicidad {
     height: 350px;
     width: 110px;
+  }
+  .img-carrito{
+    height: 100%;
   }
 }
 
