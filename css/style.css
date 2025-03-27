@@ -186,6 +186,9 @@ main {
   color: rgb(252, 115, 3);
 }
 
+.img-banner-promociones {
+  height: 50%;
+}
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
