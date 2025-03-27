@@ -186,6 +186,14 @@ main {
   color: rgb(252, 115, 3);
 }
 
+.btn-inicio-como{
+  height: 25px;
+}
+
+.btn-inicio-como{
+  height: 25px;
+}
+
 .img-banner-promociones {
   height: 280px;
   object-fit: cover;
@@ -297,5 +305,11 @@ main {
 @media (min-width: 320px) and (max-width: 425px) {
   .contenedor-img-descripcion-producto {
     height: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .img-d-none{
+    display: none;
   }
 }
