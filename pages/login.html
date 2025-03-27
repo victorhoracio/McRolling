@@ -18,7 +18,7 @@
                 <div class="col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <h2 class="text-center my-3 p-2">¡Bienvenido a McRolling!</h2>
                     <h3 class="text-center">Ingresa tus datos</h3>
-                    <form class="form-login p-3">
+                    <form class="form-login p-3" action="../pages/error404.html">
                         <div>
                             <label for="email">Email</label>
                             <input class="form-control" type="email" name="email" id="email" required>
@@ -28,27 +28,27 @@
                             <input class="form-control" type="password" name="password" id="password" minlength="8" required>
                         </div>
                         <div class="mb-3">
-                            <div class="d-inline-flex align-items-center gap-2 mt-3 mr-3">
+                            <div class="d-inline-flex align-items-center gap-2 mt-3">
                                 <input type="checkbox" name="remember" id="remember">
                                 <label for="remember" class="ml-2">Recordar mi usuario</label>
                             </div>
                             <div class="my-1">
-                                <a href="error404.html" class="link-underline link-underline-opacity-0">¿No recuerdas tu contraseña? Para recuperarla haz clic aquí</a>
+                                <a href="../pages/error404.html" class="link-underline link-underline-opacity-0">¿No recuerdas tu contraseña? Para recuperarla haz clic aquí</a>
                             </div>
                         </div>
                         <div>
-                            <button type="submit" class="btn btn-warning w-100">Iniciar sesión</button>
+                            <button type="submit" class="btn btn-warning w-100" value="error404">Iniciar sesión</button>
                         </div>
                         <div class="text-center my-3">
-                            <p><a href="/pages/registro.html" class="link-underline link-underline-opacity-0">¿No tienes cuenta? Regístrate aquí</a></p>
-                            <p><a href="/index.html">Volver al inicio</a></p>
+                            <p><a href="../pages/registro.html" class="link-underline link-underline-opacity-0">¿No tienes cuenta? Regístrate aquí</a></p>
+                            <p><a href="../index.html">Volver al inicio</a></p>
                         </div>
                         <div class="row my-3 gap-3 justify-content-center">
-                            <a href="./error404.html" class="col-12 col-md-12 col-lg-5 d-flex justify-content-center link-underline link-underline-opacity-0">
-                                <button type="button" class="btn btn-danger w-100"><div><img class="btn-inicio-como" src="../img/google.png" alt="Logo de Google"></div>Iniciar sesión con Google</button>
+                            <a href="../pages/error404.html" class="col-12 col-md-12 col-lg-5 d-flex justify-content-center link-underline link-underline-opacity-0">
+                                <button type="button" class="btn btn-danger w-100"><div><img class="btn-inicio-como" src="../img/google.png" alt="Logo inicio de sesión de Google"></div>Iniciar sesión con Google</button>
                             </a>
-                            <a href="./error404.html" class="col-12 col-md-12 col-lg-5 d-flex justify-content-center link-underline link-underline-opacity-0">
-                                <button type="button" class="btn btn-primary w-100"><div><img class="btn-inicio-como" src="../img/facebook.png" alt="Logo de Facebook"></div>Iniciar sesión con Facebook</button>
+                            <a href="../pages/error404.html" class="col-12 col-md-12 col-lg-5 d-flex justify-content-center link-underline link-underline-opacity-0">
+                                <button type="button" class="btn btn-primary w-100"><div><img class="btn-inicio-como" src="../img/facebook.png" alt="Logo inicio de sesión de Facebook"></div>Iniciar sesión con Facebook</button>
                             </a>
                         </div>
                     </form>
