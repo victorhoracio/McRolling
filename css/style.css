@@ -187,7 +187,8 @@ main {
 }
 
 .img-banner-promociones {
-  height: 50%;
+  height: 280px;
+  object-fit: cover;
 }
 /* Media de publicidades */
 
