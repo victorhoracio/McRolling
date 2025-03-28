@@ -30,6 +30,16 @@ main {
   font-style: normal;
 }
 
+.bg-main-login{
+  background-image: linear-gradient(
+    181.3deg,
+    rgba(134, 15, 15, 1) 24.9%,
+    rgba(183, 10, 10, 1) 46.9%,
+    rgba(210, 70, 0, 1) 85.1%
+  );
+  color: white;
+}
+
 .contenedor-sticky {
   position: relative;
 }
@@ -190,8 +200,10 @@ main {
   height: 25px;
 }
 
-.btn-inicio-como{
-  height: 25px;
+.img-login{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .img-banner-promociones {
@@ -308,8 +320,14 @@ main {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .img-d-none{
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .contenedor-img-login{
+    height: 687px;
   }
 }
