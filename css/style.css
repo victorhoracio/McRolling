@@ -35,7 +35,7 @@ main {
     181.3deg,
     rgba(134, 15, 15, 1) 24.9%,
     rgba(183, 10, 10, 1) 46.9%,
-    rgba(210, 70, 0, 1) 85.1%
+    rgb(209, 70, 0) 85.1%
   );
   color: white;
 }
@@ -210,6 +210,11 @@ main {
   height: 280px;
   object-fit: cover;
 }
+
+.bg-login-form{
+background-color: #ff5703;
+}
+
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
