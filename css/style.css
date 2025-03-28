@@ -30,6 +30,16 @@ main {
   font-style: normal;
 }
 
+.bg-main-login{
+  background-image: linear-gradient(
+    181.3deg,
+    rgba(134, 15, 15, 1) 24.9%,
+    rgba(183, 10, 10, 1) 46.9%,
+    rgb(209, 70, 0) 85.1%
+  );
+  color: white;
+}
+
 .contenedor-sticky {
   position: relative;
 }
@@ -190,6 +200,36 @@ main {
   height: 25px;
 }
 
+.img-login{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-banner-promociones {
+  height: 280px;
+  object-fit: cover;
+}
+
+.bg-login-form{
+background-color: #ff5703;
+}
+
+.img-login{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-banner-promociones {
+  height: 280px;
+  object-fit: cover;
+}
+
+.bg-login-form{
+background-color: #ff5703;
+}
+
 .mapa{
   width: 100%;
   height: 100%;
@@ -198,6 +238,7 @@ main {
 textarea{
   resize: none;
 }
+
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -308,8 +349,14 @@ textarea{
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .img-d-none{
     display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .contenedor-img-login{
+    height: 687px;
   }
 }
