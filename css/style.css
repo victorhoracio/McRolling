@@ -206,6 +206,23 @@ main {
   object-fit: cover;
 }
 
+<<<<<<< HEAD
+.img-login{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+=======
+.btn-inicio-como{
+  height: 25px;
+}
+
+.img-banner-promociones {
+  height: 280px;
+  object-fit: cover;
+}
+>>>>>>> 9805233b9c2fdb9a85240df8463e5fc03660cc68
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
