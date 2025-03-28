@@ -215,6 +215,30 @@ main {
 background-color: #ff5703;
 }
 
+.img-login{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-banner-promociones {
+  height: 280px;
+  object-fit: cover;
+}
+
+.bg-login-form{
+background-color: #ff5703;
+}
+
+.mapa{
+  width: 100%;
+  height: 100%;
+}
+
+textarea{
+  resize: none;
+}
+
 /* Media de publicidades */
 
 @media (min-width: 320px) and (max-width: 767px) {
