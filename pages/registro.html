@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Registrar</title>
+    <title>McRolling - Registrarse</title>
   </head>
   <body>
     <header>
@@ -51,7 +51,7 @@
             <input
               class="form-control me-2"
               type="search"
-              placeholder="Ej. Hamburguesas riquísimas"
+              placeholder="Buscar productos..."
               aria-label="Search"
             />
             <button class="btn btn-danger" type="submit" value="error404">
@@ -134,6 +134,7 @@
               name="nombre"
               id="nombre"
               class="form-control"
+              minlength="5"
               maxlength="30"
               placeholder="Juan Perez"
               required
@@ -171,6 +172,7 @@
               name="domicilio"
               id="domicilio"
               class="form-control"
+              minlength="10"
               maxlength="30"
               placeholder="Gral. José María Paz 576"
               required

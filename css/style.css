@@ -239,8 +239,6 @@ textarea{
   resize: none;
 }
 
-/* Media de publicidades */
-
 @media (min-width: 320px) and (max-width: 767px) {
   .contenedor-publicidad {
     display: none;
@@ -279,8 +277,6 @@ textarea{
     width: 700px;
   }
 }
-
-/* Media de titulos de categorias */
 
 @media (max-width: 374px) {
   .titulo-categoria {
