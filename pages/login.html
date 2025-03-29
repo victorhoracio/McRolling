@@ -8,12 +8,12 @@
     <meta name="Author" content="Victor H. Llanos, Rita Natalia Borquez, Claudia Ximena Barrientos, Exequiel Ignacio Rojas" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>McRolling</title>
+    <title>McRolling - Login</title>
 </head>
 <body>
 
     <main class="bg-main-login">
-        <section class="container my-3 bg-dark">
+        <section class="container my-3 bg-dark rounded border border-3 border-light shadow">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center">
                     <h2 class="text-center my-3 p-2">¡Bienvenido a McRolling!</h2>
@@ -21,11 +21,11 @@
                     <form class="form-login p-3" action="../pages/error404.html">
                         <div>
                             <label for="email">Email</label>
-                            <input class="form-control" type="email" name="email" id="email" required>
+                            <input class="form-control" type="email" name="email" id="email" maxlength="40" required>
                         </div>
                         <div class="mt-2">
                             <label for="password">Contraseña</label>
-                            <input class="form-control" type="password" name="password" id="password" minlength="8" required>
+                            <input class="form-control" type="password" name="password" id="password" minlength="8" maxlength="20" required>
                         </div>
                         <div class="mb-3">
                             <div class="d-inline-flex align-items-center gap-2 mt-3">
@@ -54,7 +54,7 @@
                     </form>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 p-0 contenedor-img-login d-none d-md-block">
-                    <img class="img-login" src="https://images.pexels.com/photos/3220617/pexels-photo-3220617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen de hamburguesa">
+                    <img class="img-login" src="../img/img login.jpg" alt="Imagen de hamburguesa">
                 </div>
             </div>
         </section>

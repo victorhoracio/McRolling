@@ -8,42 +8,83 @@
     <meta name="Autor" content="Victor H. Llanos, Rita Natalia Borquez, Claudia Ximena Barrientos, Exequiel Ignacio Rojas" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Detalle del carrito</title>
+    <title>McRolling - Detalle del carrito</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
-          <div class=" row container-fluid">
-            <a class="navbar-brand text-danger-emphasis fs-4 fw-bold titulo col-xs-12 col-md-3 col-lg-3" href="index.html">
-              <img src="../img/navbarLogo.png" alt="Logo" width="100" height="100" class=" align-text-center">
-              McRolling</a>
-                      
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand text-danger-emphasis fs-2 fw-bold titulo"
+          href="../index.html"
+        >
+          <img
+            src="../img/navbarLogo.png"
+            alt="Logo"
+            width="70"
+            height="70"
+            class="align-text-center"
+          />
+          <strong>McRolling</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#miMenu"
+          aria-controls="miMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form
+          class="d-flex flex-grow-1 w-100 mt-2 mt-lg-0 mx-lg-3"
+          role="search" action="./error404.html"
+        >
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Buscar productos..."
+            aria-label="Search"
+          />
+          <button class="btn btn-danger" type="submit" value="error404">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+        <div
+          class="collapse navbar-collapse justify-content-end text-center"
+          id="miMenu"
+        >
+          <ul class="navbar-nav nav-underline mx-3">
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a
+                class="nav-link text-danger-emphasis fw-bold"
+                href="./acercaDeNosotros.html"
+                >Quienes Somos</a
+              >
+            </li>
+            <li
+              class="nav-item d-flex align-items-center justify-content-center"
+            >
+              <a
+                class="nav-link text-danger-emphasis fw-bold"
+                href="./contactos.html"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+          <div class="mt-2 mt-lg-0 mx-2">
+            <a class="btn btn-outline-danger active" href="./detalleCarrito.html">
+              <i class="bi bi-cart4"></i>
+            </a>
           </div>
-       
-          <div class="container-fluid ">        
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#miMenu"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="miMenu">
-              <ul class="navbar-nav nav justify-content-end nav-underline  ">
-                <li class="nav-item">
-                  <a class="nav-link  active text-danger-emphasis  fw-bold " aria-current="page" href="../index.html"><i class="bi bi-arrow-counterclockwise"></i> Volver al inicio</a>
-                </li>           
-                <li class="nav-item">
-                  <a class="nav-link text-danger-emphasis fw-bold" href="../pages/error404.html">Seguir Comprando</a>
-                </li>                       
-                 </ul>              
-            </div>
-          </div>
-        </nav>
-      </header>
+        </div>
+      </div>
+    </nav>
+  </header>
      <main class="container-fluid text-center py-3 bg-main-fuente">
         <div class="container">
             <div class="row rounded border border-3 border-warning contenedor-descripcion py-2">
@@ -94,7 +135,7 @@
                         <p class="fs-3 text-success">$22500</p>
                     </div>
                     <div class="py-3">
-                        <a href="./detalleProducto.html" class="btn btn-warning me-3 mb-2"><i class="bi bi-arrow-left-circle"></i> Seguir comprando</a>
+                        <a href="../index.html" class="btn btn-warning me-3 mb-2"><i class="bi bi-arrow-left-circle"></i> Seguir comprando</a>
                         <a href="./error404.html" class="btn btn-warning me-3 mb-2">Finalizar compra <i class="bi bi-arrow-right-circle"></i></a>
                     </div>
                 </div>

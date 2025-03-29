@@ -14,73 +14,104 @@
     />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>Registrar</title>
+    <title>McRolling - Registrarse</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
-        <div class="row container-fluid">
+        <div class="container-fluid">
           <a
-            class="navbar-brand text-danger-emphasis fs-4 fw-bold titulo col-xs-12 col-md-3 col-lg-3"
-            href="index.html"
+            class="navbar-brand text-danger-emphasis fs-2 fw-bold titulo"
+            href="../index.html"
           >
             <img
               src="../img/navbarLogo.png"
               alt="Logo"
-              width="100"
-              height="100"
+              width="70"
+              height="70"
               class="align-text-center"
             />
-            McRolling</a
-          >
-        </div>
-
-        <div class="container-fluid">
+            <strong>McRolling</strong>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#miMenu"
-            aria-controls="navbarSupportedContent"
+            aria-controls="miMenu"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="miMenu">
-            <ul class="navbar-nav nav justify-content-end nav-underline">
-              <li class="nav-item">
-                <a
-                  class="nav-link active text-danger-emphasis fw-bold"
-                  aria-current="page"
-                  href="../index.html"
-                  ><i class="bi bi-arrow-counterclockwise"></i> Volver al
-                  inicio</a
-                >
-              </li>
-              <li class="nav-item">
+          <form
+            class="d-flex flex-grow-1 w-100 mt-2 mt-lg-0 mx-lg-3"
+            role="search" action="./error404.html"
+          >
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar productos..."
+              aria-label="Search"
+            />
+            <button class="btn btn-danger" type="submit" value="error404">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+          <div
+            class="collapse navbar-collapse justify-content-end text-center"
+            id="miMenu"
+          >
+            <ul class="navbar-nav nav-underline">
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
                 <a
                   class="nav-link text-danger-emphasis fw-bold"
-                  aria-current="page"
-                  href="./pages/acercaDeNosotros.html"
+                  href="./acercaDeNosotros.html"
                   >Quienes Somos</a
                 >
               </li>
-              <li class="nav-item">
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
                 <a
                   class="nav-link text-danger-emphasis fw-bold"
-                  href="../pages/contactos.html"
-                  >Contactanos</a
+                  href="./contactos.html"
+                  >Contacto</a
+                >
+              </li>
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
+                <a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  href="./login.html"
+                  >Iniciar sesion</a
+                >
+              </li>
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
+                <a
+                  class="nav-link text-danger-emphasis fw-bold active"
+                  href="./registro.html"
+                  >Crea una cuenta</a
                 >
               </li>
             </ul>
+            <div class="mt-2 mt-lg-0 mx-2">
+              <a class="btn btn-outline-danger" href="./detalleCarrito.html">
+                <i class="bi bi-cart4"></i>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
     </header>
 
     <main class="bg-main-fuente">
-      <section class="container col-10 bg-login-form bg-gradient my-4 p-4 rounded">
+      <section class="container col-10 bg-login-form bg-gradient my-4 p-4 border border-3 border-dark rounded shadow">
         <h1 class="text-center text-dark mb-4">Ingresa tus datos para registrarte</h1>
         <form class="d-flex flex-column align-items-center gap-3" action="../pages/error404.html">
           <div class="form-group col-12 col-md-8 col-lg-6">
@@ -103,6 +134,7 @@
               name="nombre"
               id="nombre"
               class="form-control"
+              minlength="5"
               maxlength="30"
               placeholder="Juan Perez"
               required
@@ -140,6 +172,7 @@
               name="domicilio"
               id="domicilio"
               class="form-control"
+              minlength="10"
               maxlength="30"
               placeholder="Gral. José María Paz 576"
               required

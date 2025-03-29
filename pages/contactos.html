@@ -14,57 +14,104 @@
     />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <title>McRolling</title>
+    <title>McRolling - Contactos</title>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-warning bg-warning">
-        <div class="row container-fluid">
+        <div class="container-fluid">
           <a
-            class="navbar-brand text-danger-emphasis fs-4 fw-bold titulo col-xs-12 col-md-3 col-lg-3"
-            href="index.html"
+            class="navbar-brand text-danger-emphasis fs-2 fw-bold titulo"
+            href="../index.html"
           >
             <img
               src="../img/navbarLogo.png"
               alt="Logo"
-              width="100"
-              height="100"
+              width="70"
+              height="70"
               class="align-text-center"
             />
-            McRolling</a
-          >
-        </div>
-
-        <div class="container-fluid">
+            <strong>McRolling</strong>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#miMenu"
-            aria-controls="navbarSupportedContent"
+            aria-controls="miMenu"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="miMenu">
-            <ul class="navbar-nav nav justify-content-end nav-underline">
-              <li class="nav-item">
+          <form
+            class="d-flex flex-grow-1 w-100 mt-2 mt-lg-0 mx-lg-3"
+            role="search"
+            action="./error404.html"
+          >
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar productos..."
+              aria-label="Search"
+            />
+            <button class="btn btn-danger" type="submit" value="error404">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+          <div
+            class="collapse navbar-collapse justify-content-end text-center"
+            id="miMenu"
+          >
+            <ul class="navbar-nav nav-underline">
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
                 <a
-                  class="nav-link active text-danger-emphasis fw-bold"
-                  aria-current="page"
-                  href="../index.html"
-                  ><i class="bi bi-arrow-counterclockwise"></i> Volver al
-                  inicio</a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  href="./acercaDeNosotros.html"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
+                <a
+                  class="nav-link text-danger-emphasis fw-bold active"
+                  href="./contactos.html"
+                  >Contacto</a
+                >
+              </li>
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
+                <a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  href="./login.html"
+                  >Iniciar sesion</a
+                >
+              </li>
+              <li
+                class="nav-item d-flex align-items-center justify-content-center"
+              >
+                <a
+                  class="nav-link text-danger-emphasis fw-bold"
+                  href="./registro.html"
+                  >Crea una cuenta</a
                 >
               </li>
             </ul>
+            <div class="mt-2 mt-lg-0 mx-2">
+              <a class="btn btn-outline-danger" href="./detalleCarrito.html">
+                <i class="bi bi-cart4"></i>
+              </a>
+            </div>
           </div>
         </div>
       </nav>
     </header>
     <main class="bg-main-fuente">
-      <section class="container bg-warning my-4 rounded">
+      <section class="container bg-warning my-4 border border-3 border-dark rounded shadow">
         <h1 class="fw-bold text-center p-3">¡Contactanos!</h1>
         <article class="row p-3">
           <div class="col-12 col-md-6 col-lg-6 mb-3">
@@ -77,6 +124,7 @@
                   type="text"
                   class="form-control"
                   id="nombre"
+                  minlength="5"
                   maxlength="30"
                   placeholder="Ej: Juan Perez"
                   required
@@ -389,6 +437,41 @@
         </article>
       </section>
     </main>
+    <footer class="bg-danger py-3 text-light">
+      <div class="container">
+          <div class="row">
+              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                  <h5 class="fs-4">Mc Rolling</h5>
+                  <a href="../index.html">
+                      <img src="../img/descarga.png" alt="Logo de McRolling" class="logofooter">
+                  </a>
+              </article>
+              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                  <h5>Productos</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="../index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Hamburguesas</a></li>
+                      <li><a href="../index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Ensaladas</a></li>
+                      <li><a href="../index.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Agregados</a></li>
+                  </ul>
+              </article>
+              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                  <h5>Contactanos</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="./contactos.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Contactos</a></li>
+                      <li><a href="./acercaDeNosotros.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Quienes Somos</a></li>
+                      <li><a href="./registro.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Registrarse</a></li>
+                      <li><a href="./login.html" class="link-light link-underline-opacity-25 link-underline-opacity-100-hover">Login</a></li>
+                  </ul>
+              </article>
+              <article class="col-12 col-md-6 col-lg-3 text-center text-ld-start">
+                  <h5>Nuestras Redes</h5>
+                  <a href="https://www.facebook.com/?locale=es_LA" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-instagram"></i></a>
+                  <a href="https://x.com/?lang=es" target="_blank" class="link-light fs-4 mx-2"><i class="bi bi-twitter-x"></i></a>
+              </article>
+          </div>
+      </div>
+  </footer>
     <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
